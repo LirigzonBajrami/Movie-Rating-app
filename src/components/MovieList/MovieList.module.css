@@ -1,0 +1,17 @@
+.movieList,
+.showList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 30px 50px;
+  background-color: #1f1f1f;
+  justify-self: center;
+  color: #ddd;
+}
+
+.renderMovies h2 {
+  background-color: #1f1f1f;
+  margin: 0px;
+  padding: 10px 20px;
+  color: #ddd;
+}

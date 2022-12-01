@@ -1,0 +1,17 @@
+.content {
+  color: #fff;
+}
+.content:hover {
+  transform: scale(1.03);
+  transition: all 0.5s;
+}
+
+.content img {
+  width: 100%;
+  min-height: 340px;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
